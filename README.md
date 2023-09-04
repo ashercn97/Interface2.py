@@ -19,3 +19,8 @@ class MyInterface(IF4.Interface):
 You could wrap them with the decorators too! IF you have ANY questions, please leave an issue and ill be happy to get back to you.
 
 This is one of my first public projects! If anyone has any suggestions for changes/improvements/anything please let me know!!
+
+
+please see the examples folder for examples of how to use it
+
+
