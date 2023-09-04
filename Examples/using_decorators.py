@@ -98,3 +98,28 @@ ex.name     # it returns the default value!
 
 # and, it allows us to inialize an object with a value 
 
+# --------------------------------------------------------- #
+
+# lastly, the optional operator 
+#      note: this one is my favorite! It is sm fun
+
+# imports
+
+from decorators.optionalIF4 import optional
+
+# this one is really simple
+# all you need to do is wrap the class in the optional decorator, and then add a
+# "?" to the end of your name thing!
+
+# for example
+
+@optional
+class Opt(IF4.Interface):
+    _properties = {
+        "name?": str          # this will make an optional input and if you do input it, it will have to be a string
+    }
+
+opt1 = Opt()
+print(opt1.name)    #returns None
+opt2 = Opt(name="Hi") 
+print(opt2.name)    #returns "Hi"
