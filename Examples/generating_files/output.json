@@ -1,0 +1,8 @@
+{
+  "Cookie": {
+    "flavor": "str",
+    "whipped_cream": "bool",
+    "chocolate_sauce": "bool",
+    "size": "str"
+  }
+}

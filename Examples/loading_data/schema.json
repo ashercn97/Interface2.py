@@ -1,0 +1,11 @@
+{
+    "Order":{
+        "name": "str",
+        "time": "int",
+        "food": "Food"
+    },
+    "Food":{
+        "menu_item": "str",
+        "hot_souce": "bool"
+    }
+}
