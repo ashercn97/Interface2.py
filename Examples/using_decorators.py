@@ -123,3 +123,34 @@ opt1 = Opt()
 print(opt1.name)    #returns None
 opt2 = Opt(name="Hi") 
 print(opt2.name)    #returns "Hi"
+
+
+# ------------------------------------------------#
+
+# next is manuval 
+
+# manuval allows you to initialize classes that dont fit the types, and then later validate them manually. 
+# this could be helpful in buliding applications that would need error handling for bad types
+
+# to use it:
+
+from decorators.manuvalIF4 import manuval
+
+# then, you simply wrap an otherwise normal class
+
+# you can input True or False, this being if you want an error message output. True outputs an error, while False outputs just the boolean False,
+@manuval(True)     # which  could be beneficial for error handling
+class MV(IF4.Interface):
+    _properties = {
+        "age": int
+    }
+
+# now, if we were to inialialize an object like this:
+
+t = MV(age="Hi")
+
+# it will not raise any error
+
+# to validate it, simplly run
+
+t.validate()
