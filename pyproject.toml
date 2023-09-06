@@ -11,6 +11,6 @@ build-backend = "poetry.core.masonry.api"
 [dependencies]
 python = "^3.x"
 requests = "^2.26.0"
-typing
-builtins
-functools
+typing = "^3"
+builtins = "^3"
+functools = "^3"
