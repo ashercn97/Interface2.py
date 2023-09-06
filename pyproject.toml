@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "Interface2py"
+version = "0.1.0"
+description = "Test"
+authors = [""]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependencies]
+python = "^3.x"
+requests = "^2.26.0"
+typing
+builtins
+functools
