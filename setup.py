@@ -6,5 +6,6 @@ setup(
     author='Asher',            # Replace with your name
     author_email='', # Replace with your email
     description='',  # Replace with your package description
+    long_description = '',
     packages=find_packages(),      # Find all packages in the project directory
 )
