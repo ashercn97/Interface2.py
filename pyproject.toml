@@ -1,18 +1,3 @@
 [build-system]
-requires = [
-  "setuptools >= 40.9.0",
-]
+requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
-
-[tool.poetry]
-Name = "Interface2py"
-version = "0.1.0"
-description = "Test"
-authors = [""]
-
-[dependencies]
-python = "^3.x"
-requests = "^2.26.0"
-typing = "^3"
-builtins = "^3"
-functools = "^3"
