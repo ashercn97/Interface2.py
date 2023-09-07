@@ -6,7 +6,7 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: "Interface2py"
+Name: "Interface2py"
 
 on:
   release:
