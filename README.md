@@ -5,6 +5,17 @@ The decorators are used to add more functionality to the code. The two current o
 
 To use it, you can clone the repo and then import the IF4 (the main file).
 
+UPDATE:
+you can now install it using pip!!
+for example:
+```
+python -m pip install Interface2py
+```
+
+for info on how to use it, view the example ipynb
+
+
+
 Then, you could do the following:
 
 ```
